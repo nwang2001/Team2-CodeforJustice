@@ -6,14 +6,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="shared.css">
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script src="../contact.js"></script> -->
     <title>Contact Us</title>
 </head>
 <body>
+
     <header>
-        <img class="responsive-img" src="../education.jpg">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">Logo</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="index.html">Home Page</a></li>
+                        <li class="active"><a href="about.html">About Us</a></li>
+                        <li><a href="prep.html">Prep</a></li>
+                        <li><a href="research.html">Research</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <h1 class="header__contact">Contact Us</h1>
     </header>
 
     <section id="contact-form" class="z-depth-2">
@@ -46,18 +60,18 @@
                 <div class="input-field col s12">
                     <label class="active">I want to</label>
                     <select multiple>
-                        <option value="" disabled selected>Choose your option</option>
-                        <option value="1">Recieve more information on GED Ready Prep</option>
-                        <option value="2">Donate to help the GED Ready Foundation</option>
+                        <option value="" disabled selected></option>
+                        <option value="1">Recieve more information</option>
+                        <option value="2">Donate to GED Ready Foundation</option>
                         <option value="3">Sign up for GED Ready Prep!</option>
                     </select>
                 </div>
                 </div>
 
                 <div class="row">
-                <div class="input-field col 12">
-                    <textarea class="input-field col 12" id="textarea1" class="materialize-textarea"></textarea>
-                    <label class="active" for="textarea1">Include a message</label>
+                <div class="input-field col s12">
+                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                    <label class="active" for="textarea1">Include A Message</label>
                 </div>
                 </div>
 
@@ -70,6 +84,36 @@
             </form>
         </div>
     </section>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l12 s12">
+                    <ul class="footer-nav">
+                        <li><a href="index.html">Home Page</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="prep.html">Prep</a></li>
+                        <li><a href="research.html">Research</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <ul class="footer left">
+                    <li class="copy">
+                        <p>&copy; 2023 GED Ready, All rights reserved.</p>
+                    </li>
+                </ul>
+                <ul class="footer-icons">
+                    <li><a href="https://www.linkedin.com/"><img class="icons" src="logopng/linkedin.png"></a></li>
+                    <li><a href="https://www.instagram.com/"><img class="icons" src="logopng/insta.png"></a></li>
+                    <li><a href="https://twitter.com/"><img class="icons" src="logopng/xtwitter.png"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
