@@ -3,20 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="about.css">
+    <link href="prep.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <header>
         <nav>
-            <h1>Welcome to GED Prep</h1>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">Logo</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home Page</a></li>
+                    <li ><a href="about.html">About Us</a></li>
+                    <li class="active"><a href="prep.html">Prep</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            
         </nav>
     </header>
+
     <main>
     <!-- Make instructors flex column 
         and each  div flex row -->
+        <h1 class="h1-prep">Welcome to GED Prep</h1>
 
         <section class="instructors">  
-            <h2> Meet the instructors</h2>
+            
+
+            <h2 class="h2-prep"> Meet the instructors</h2>
 
             <div class="instructor-1">
                 <img src="prep.images/instructor-1.jpeg" alt="Instructor icon">
@@ -84,6 +101,38 @@
 
 
     </main>
+
+
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l12 s12">
+                    <ul class="footer-nav">
+                        <li><a href="index.html">Home Page</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="prep.html">Prep</a></li>
+                        <li><a href="research.html">Research</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <ul class="footer left">
+                    <li class="copy">
+                        <p>&copy; 2023 GED Ready, All rights reserved.</p>
+                    </li>
+                </ul>
+                <ul class="footer-icons">
+                    <li><a href="https://www.linkedin.com/"><img class="icons" src="logopng/linkedin.png"></a></li>
+                    <li><a href="https://www.instagram.com/"><img class="icons" src="logopng/insta.png"></a></li>
+                    <li><a href="https://twitter.com/"><img class="icons" src="logopng/xtwitter.png"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
     
 </body>
 </html>
