@@ -1,0 +1,33 @@
+body {
+    background: #fffff2;
+    color: #364d3e;
+}
+
+.nav-wrapper {
+    background-color: #6f8476;
+}
+
+.nav-wrapper a {
+    color: #fffff2;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.page-footer {
+    background-color: #bea9a7;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.page-footer ul {
+    display: flex;
+    justify-content: space-evenly;
+}
