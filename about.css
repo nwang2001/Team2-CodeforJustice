@@ -1,14 +1,14 @@
 body {
-    background: #fffff2;
-    color: #364d3e;
+    background: #5cdb95;
+    color: #05386b;
 }
 
 .nav-wrapper {
-    background-color: #1f6f39;
+    background-color: #379683;
 }
 
 .nav-wrapper a {
-    color: #fffff2;
+    color: #05386b;
 }
 
 body {
@@ -22,7 +22,7 @@ main {
 }
 
 .page-footer {
-    background-color: #a78784;
+    background-color: #8ee4af;
 }
 
 .page-footer .footer-copyright {
@@ -36,6 +36,10 @@ main {
 
 .footer {
     display: flex;
+    color: #05386b;
+}
+a {
+    color: #05386b;
 }
 .footer-icons {
     display: flex;
