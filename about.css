@@ -23,11 +23,22 @@ main {
 
 .page-footer {
     background-color: #bea9a7;
-    padding-top: 5px;
-    padding-bottom: 5px;
 }
 
-.page-footer ul {
+.footer-nav {
     display: flex;
     justify-content: space-evenly;
+}
+
+.footer {
+    display: flex;
+}
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-left: auto;
+}
+.icons {
+    height: 50px;
 }
