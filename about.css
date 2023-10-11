@@ -4,7 +4,7 @@ body {
 }
 
 .nav-wrapper {
-    background-color: #6f8476;
+    background-color: #1f6f39;
 }
 
 .nav-wrapper a {
@@ -22,7 +22,11 @@ main {
 }
 
 .page-footer {
-    background-color: #bea9a7;
+    background-color: #a78784;
+}
+
+.page-footer .footer-copyright {
+    padding: ;
 }
 
 .footer-nav {
