@@ -1,0 +1,26 @@
+.h1-prep {
+    text-align: center;
+}
+
+.instructor-1 {
+    padding: 50px;
+    display: flex;
+}
+
+.instructor-1 img {
+    height: 150px;
+    width: 200px;
+    border-radius: 70%;
+
+}
+
+.instructor-2 {
+    display: flex;
+    
+}
+
+.instructor-2 img {
+    height: 150px;
+    width: 200px;
+    border-radius: 70%;
+}
