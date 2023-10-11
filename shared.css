@@ -1,15 +1,35 @@
 body {
     background: #5cdb95;
     color: #05386b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.nav-wrapper {
+nav .nav-wrapper {
     background-color: #379683;
+    height: 100px;
 }
-
+nav ul a {
+    font-size: 20px;
+}
+.nav-wrapper {
+    align-items: center;
+}
+.logo {
+    height: 100%;
+}
+.nav-wrapper ul {
+    height: 100%;
+}
+.nav-wrapper li {
+    height: 100%;
+    vertical-align: auto;
+    font-size: px;
+}
 .nav-wrapper a {
     color: #05386b;
+    height: 100%;
 }
+
 
 body {
     display: flex;
