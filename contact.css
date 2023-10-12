@@ -1,14 +1,13 @@
 .header__contact {
     text-align: center;
     margin-top: 4rem;
-    /* font-family: 'Tahoma'; */
 }
 
 #contact-form {
     width: 60%;
     margin: 2rem auto;
     background-color: #EDF5E1;
-    /* font-family: 'Tahoma'; */
+
 }
 
 .container {
@@ -21,7 +20,6 @@
     padding: 8px;
     font-size: .75rem;
     color: rgb(155, 152, 152);
-    /* font-family: 'Tahoma'; */
 }
 
 
