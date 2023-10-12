@@ -2,6 +2,13 @@ body {
     background: #5cdb95;
     color: #05386b;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
 }
 
 nav .nav-wrapper {
@@ -28,17 +35,6 @@ nav ul a {
 .nav-wrapper a {
     color: #05386b;
     height: 100%;
-}
-
-
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-}
-
-main {
-    flex: 1 0 auto;
 }
 
 .page-footer {
