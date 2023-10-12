@@ -1,10 +1,27 @@
 .h1-prep {
     text-align: center;
+  
+    
+
+
+}
+
+.h2-prep {
+    padding: 50px;
+   
+    
+
+
 }
 
 .instructor-1 {
     padding: 50px;
     display: flex;
+    justify-content: ;
+   
+    
+
+
 }
 
 .instructor-1 img {
@@ -13,9 +30,16 @@
     border-radius: 70%;
 
 }
+.instructor-1 p {
+    padding: 50px;
+    
+
+
+}
 
 .instructor-2 {
     display: flex;
+    padding: 50px;
     
 }
 
@@ -23,4 +47,206 @@
     height: 150px;
     width: 200px;
     border-radius: 70%;
+    
+
+
 }
+
+.instructor-2 p {
+    padding: 50px;
+
+
+}
+
+.h3-prep {
+    padding: 50px;
+
+
+}
+
+
+.ged-prep-grid {
+    text-align: center;
+    margin: 0 auto;
+    grid-gap: 20px;
+    height: 500px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    box-sizing: border-box;
+}
+
+.ged-prep-grid div {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #05386b;
+
+}
+
+.ged-prep-grid div:hover {
+    border: #05386b 2px solid;
+}
+
+
+.ged-prep-grid div:nth-child(even) img {
+    mix-blend-mode: color-burn;
+    height: 124px;
+    width: 124px;
+}
+.ged-prep-grid div:nth-child(odd) img {
+    mix-blend-mode: color-burn;
+    height: 124px;
+    width: 124px;
+}
+
+.ged-prep-grid span {
+    text-align: center;
+}
+
+.h4-prep {
+    padding: 50px;
+}
+.ged-prep-courses {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.ged-prep-course {
+    height: 200px;
+    padding: 50px;
+    box-sizing: border-box;
+    display: grid;
+    grid-gap: 4px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.ged-prep-course div:hover {
+    border: #05386b 2px solid;
+    box-sizing: border-box;
+}
+
+.ged-prep-course img:nth-child(odd) {
+    mix-blend-mode: color-burn;
+    height: 100px;
+    width: 100px;
+
+}
+
+.ged-prep-course img:nth-child(even) {
+    mix-blend-mode: color-burn;
+    height: 1fr;
+    width: 1fr;
+    
+}
+
+.h5-prep {
+    padding: 50px;
+}
+
+.flag-section {
+    text-align: center;
+
+}
+
+.english-courses {
+    background-color: white;
+}
+
+.english-courses img {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+
+/* .ged-prep-grid div:nth-child(1) {
+    background: url(prep.icons/freecourse-icon.png) no-repeat bottom;
+    background-size: contain;
+    mix-blend-mode: color-burn;
+    
+}
+
+
+.ged-prep-grid div:nth-child(2) {
+    background: url(prep.icons/public-transportation-icon.png) no-repeat center;
+    background-size: contain;
+    mix-blend-mode: color-burn;
+
+
+}
+
+
+.ged-prep-grid div:nth-child(3) {
+    background: url(prep.icons/prodev-icon.png) no-repeat center;
+    background-size: contain;
+    mix-blend-mode: color-burn;
+
+
+}
+
+
+.ged-prep-grid div:nth-child(4) {
+    background: url(prep.icons/job-search-icon.png) no-repeat center;
+    background-size: contain;
+    mix-blend-mode: color-burn;
+    
+
+
+}
+
+.ged-prep-grid div:nth-child(5) {
+    background: url(prep.icons/self-pace-icon.png) no-repeat center;
+    background-size: contain;
+    mix-blend-mode: color-burn;
+    
+
+
+}
+
+.ged-prep-grid div:nth-child(6) {
+    background: url(prep.icons/in-person-icon.png) no-repeat center;
+    background-size: contain;
+    mix-blend-mode: color-burn;
+    
+
+
+}
+
+.ged-prep-grid div:nth-child(7) {
+    background: url(prep.icons/books-icon.png) no-repeat center;
+    background-size: contain;
+    mix-blend-mode: color-burn;
+    
+
+
+}
+
+.ged-prep-grid div:nth-child(8) {
+    background: url(prep.icons/laptop-materials-icon.png) no-repeat center;
+    background-size: contain;
+    mix-blend-mode: color-burn;
+    
+
+
+}
+
+.ged-prep-grid div:nth-child(9) {
+    background: url(prep.icons/exams-icon.png) no-repeat center;
+    background-size: contain;
+    mix-blend-mode: color-burn;
+    
+
+
+}
+
+ */
+
+
+
+
+
