@@ -9,12 +9,14 @@ main {
 }
 
 h1 {
+    font-weight: bold;
     font-size: 40px;
     margin: 3rem 2rem;
     margin-bottom: 0;
 }
 h2 {
-    font-size: 30px;
+    font-weight: bold;
+    font-size: 34px;
     margin: 3rem 2rem;
     margin-bottom: 1rem;
 }
