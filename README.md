@@ -1,0 +1,3 @@
+# Created a website for our GED prep/program.
+## There are 5 linked pages containing info on our program, about the program, a prep page, research/resource page, and a contact us form.
+### On each page, there is the navigation bar linked to each separate page. There is also a footer navigation bar and links to social media pages if users would like to connect with us. Users can click through the pages to learn about the program, what is offered, what the program's mission and statement is, and a contact form. The contact form will take basic user info for us using JavaScript.
