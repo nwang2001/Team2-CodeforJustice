@@ -3,6 +3,22 @@
     margin-top: 4rem;
 }
 
+.contact__color {
+  animation: color-animation 4s linear infinite;
+}
+
+.contact__title-color1 {
+  --color-1: #05386b;
+  --color-2: #000;
+  --color-3: #fff;
+}
+
+.contact__title-color2 {
+  --color-1: #379683;
+  --color-2: #05386b;
+  --color-3: #000;
+}
+
 #contact-form {
     width: 60%;
     margin: 2rem auto;
@@ -57,3 +73,27 @@
   label.active {
     font-size: 1.3rem;
   }
+
+  @keyframes color-animation {
+    0% {
+        color: var(--color-1)
+    }
+    32% {
+        color: var(--color-1)
+    }
+    33% {
+        color: var(--color-2)
+    }
+    65% {
+        color: var(--color-2)
+    }
+    66% {
+        color: var(--color-3)
+    }
+    99% {
+        color: var(--color-3)
+    }
+    100% {
+        color: var(--color-1)
+    }
+}
