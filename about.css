@@ -11,23 +11,89 @@ main {
 h1 {
     font-weight: bold;
     font-size: 40px;
-    margin: 3rem 2rem;
     margin-bottom: 0;
 }
+
 h2 {
     font-weight: bold;
     font-size: 34px;
-    margin: 3rem 2rem;
     margin-bottom: 1rem;
 }
-p {
+
+.main p {
     font-size: 20px;
-    margin: 3rem 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-ul {
+
+.main {
     font-size: 20px;
     margin: 3rem 2rem;
     margin-top: 1rem;
 }
+
+
+@media screen and (max-width: 992px) {
+    nav {
+        background-color: #379683;
+        height: 110px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .dropdown {
+        position: relative;
+    }
+
+    .logo {
+        height: 100px;
+    }
+    button {
+        background-color: #379683;
+        border-style: none;
+    }
+
+    .navmenu {
+        height: 30px;
+    }
+
+    .dropdown-nav {
+        display: none;
+        position: absolute;
+        top: 10px;
+        right: 50px;
+        overflow: auto;
+        border-radius: 5px;
+        box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+    }
+    
+    .dropdown-nav a {
+        display: block;
+        color: #000000;
+        padding: 5px;
+        text-decoration: none;
+        padding: 20px 40px;
+    }
+
+    .dropdown-nav a:hover {
+        color: #0a0a23;
+        background-color: #ddd;
+        border-radius: 5px;
+    }
+
+    footer li,
+    footer p {
+        font-size: 15px;
+    }
+
+    .icons {
+        height: 40px;
+    }
+
+    .footer-icons {
+        display: flex;
+        justify-content: space-between;
+        width: 150px;
+        margin-left: auto;
+    }
+} 
