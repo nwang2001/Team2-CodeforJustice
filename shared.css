@@ -13,24 +13,24 @@ main {
 
 nav .nav-wrapper {
     background-color: #379683;
-    height: 100px;
+    height: 150px;
 }
 nav ul a {
-    font-size: 20px;
+    font-size: 22px;
+    padding: 40px 18px;
 }
 .nav-wrapper {
     align-items: center;
 }
 .logo {
     height: 100%;
+    padding: 20px;
 }
 .nav-wrapper ul {
     height: 100%;
 }
 .nav-wrapper li {
     height: 100%;
-    vertical-align: auto;
-    font-size: px;
 }
 .nav-wrapper a {
     color: #05386b;
