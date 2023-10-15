@@ -49,6 +49,11 @@ main {
     height: 300px;
     object-fit: cover;
     border: 10px solid #05386b;
+    transition: transform .2s;
+}
+
+.stories img:hover{
+    transform: scale(1.5) translateX(50px);
 }
 
 .stories {
