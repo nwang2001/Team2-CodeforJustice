@@ -11,23 +11,74 @@ main {
 h1 {
     font-weight: bold;
     font-size: 40px;
-    margin: 3rem 2rem;
     margin-bottom: 0;
 }
+
 h2 {
     font-weight: bold;
     font-size: 34px;
-    margin: 3rem 2rem;
     margin-bottom: 1rem;
 }
-p {
+
+.main p {
     font-size: 20px;
-    margin: 3rem 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-ul {
+
+.main {
     font-size: 20px;
     margin: 3rem 2rem;
     margin-top: 1rem;
+
+@media screen and (max-width: 400px) {
+    .main h1 {
+        font-size: 22px;
+        
+    }  .main h2 {
+        font-size: 18px;
+    }
+    .main ul li {
+        font-size: 14px;
+    }
+    .main p {
+        font-size: 14px;
+    }
+  
+}
+
+@media screen and (min-width: 401px) and (max-width: 768px) {
+    .main h1 {
+        font-size: 25px;
+        
+    }
+    .main h2 {
+        font-size: 20px;
+    }
+
+    .main p {
+        font-size: 16px;
+    }
+   
+    .main ul li {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .main h1 {
+        font-size: 34px;
+        
+    }
+    .main h2 {
+        font-size: 30px;
+    }
+
+    .main p {
+        font-size: 20px;
+    }
+   
+    .main ul li {
+        font-size: 20px;
+    }
 }

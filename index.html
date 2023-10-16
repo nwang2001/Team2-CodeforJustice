@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +9,33 @@
     <link rel="stylesheet" href="index.css">
     <title>Home Page</title>
 </head>
+
 <body>
 
     <header>
         <nav>
-            <div class="nav-wrapper">
+            <div class="nav-wrapper hide-on-med-and-down">
                 <a href="#" class="brand-logo"><img class="logo" src="logopng/gedready.png"></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="index.html">Home Page</a></li>
+                    <li class="active"><a href="index.html">Home Page</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="prep.html">Prep</a></li>
-                    <li><a href="research.html">Research</a></li>
+                    <li><a href="impact.html">Impact Stories</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="med-down-nav hide-on-large-only">
+                <ul>
+                    <li><a href="index.html"><img class="logo" src="logopng/gedready.png"></a></li>
+                    <li><a><img class="navmenu" src="logopng/navmenu.png"></a>
+                        <ul class="dropdown-nav">
+                            <li><a href="index.html">Home Page</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="prep.html">Prep</a></li>
+                            <li><a href="impact.html">Impact Stories</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -27,13 +43,13 @@
 
     <section class="main_container">
         <div class="main_header">
-            <h1>Let us help you earn your GED Today!</h1>
+            <h1 class="main__color main__title-color1">Let us help you earn your GED Today!</h1>
         </div>
             <div class="intro_section">
-                <h2>Enroll Today</h2>
-                <p>Begin your journey into a better future with our GED preperation </p>
-            </div>
-            <div class="sections">
+                <h2><a href="contact.html">Enroll Today</a></h2>
+                <h4>Begin your journey into a better future with our GED preperation </h4>
+        </div>
+        <div class="sections">
             <div class="first_section">
                 <div class="text">
                     <h3>Unlocking Opportunities with a GED</h3>
@@ -41,7 +57,8 @@
                         <li>Personal Growth
                             <ol class="benefit_list">
                                 <li>Boost self-confidence and self-esteem.</li>
-                                <li>Improve basic communication skills and make daily life in a english speaking country easier.</li>
+                                <li>Improve basic communication skills and make daily life in a english speaking country
+                                    easier.</li>
                             </ol>
                         </li>
                         <li>Employment Opportunities
@@ -65,28 +82,32 @@
                     </ol>
                 </div>
                 <div class="image">
-                    <img src="index.images/helpin.jpeg">
+                    <img src="index.images/key.jpeg" alt="Unlocking your future image">
                 </div>
+            </div>
+            <div class="second_section">
+                <div class="image">
+                    <img src="index.images/helpin.jpeg" alt="Two people helping eachother work image">
                 </div>
-        <div class="second_section">
-            <div class="image">
-                <img src="index.images/helpin.jpeg">
+                <div class="text">
+                    <h3>Helping you Every Step of The Way</h3>
+                    <p>We provide you access to professionals and resources to aid you in preparing for the GED. From
+                        enrollment to graduation, our dedicated team is here to support and guide you toward your GED
+                        success. </p>
+                    `
+                </div>
             </div>
-            <div class="text">
-                <h3>Helping you Every Step of The Way</h3>
-                <p>We provide you access to professionals and resources to aid you in preparing for the GED. From enrollment to graduation, our dedicated team is here to support and guide you towards your GED success </p>
+            <div class="third_section">
+                <div class="text">
+                    <h3>Change your future</h3>
+                    <p>Everyone has dreams. Education is the fuel for those dreams. With education as your foundation,
+                        your opportunities are limitless, and we're here to guide you on that transformative journey.
+                        Let us help you on your path to success!</p>
+                </div>
+                <div class="image">
+                    <img src="index.images/success.jpeg" alt="Man climbing stairs image">
+                </div>
             </div>
-            
-        </div>
-        <div class="third_section">
-            <div class="text">
-                <h3>Change your future</h3>
-                <p>Everyone has dreams. Education is the fuel for those dreams. With education as your foundation, your opportunities are limitless, and we're here to guide you on that transformative journey. Let us help you on your path to success!</p>
-            </div>
-            <div class="image">
-                <img src="index.images/success.jpeg">
-            </div>
-        </div> 
         </div>
     </section>
     <footer class="page-footer">
@@ -97,7 +118,7 @@
                         <li><a href="index.html">Home Page</a></li>
                         <li><a href="about.html">About Us</a></li>
                         <li><a href="prep.html">Prep</a></li>
-                        <li><a href="research.html">Research</a></li>
+                        <li><a href="impact.html">Impact Stories</a></li>
                         <li><a href="contact.html">Contact Us</a></li>
                     </ul>
                 </div>
@@ -118,6 +139,9 @@
             </div>
         </div>
     </footer>
-    
+
+    <script src="shared.js"></script>
+
 </body>
+
 </html>

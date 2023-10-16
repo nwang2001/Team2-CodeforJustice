@@ -2,9 +2,12 @@ main {
     background-color: #EDF5E1;
     max-height: 1000px;
 }
-
+.header__title-impact {
+    margin: 100px 0px 50px 0px;
+}
 .header__impact {
     text-align: center;
+    font-weight: 900;
 }
 
 .impact__color {
@@ -49,11 +52,6 @@ main {
     height: 300px;
     object-fit: cover;
     border: 10px solid #05386b;
-    transition: transform .2s;
-}
-
-.stories img:hover{
-    transform: scale(1.5) translateX(50px);
 }
 
 .stories {
