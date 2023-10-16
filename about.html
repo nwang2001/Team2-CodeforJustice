@@ -19,23 +19,22 @@
                     <li><a href="index.html">Home Page</a></li>
                     <li class="active"><a href="about.html">About Us</a></li>
                     <li><a href="prep.html">Prep</a></li>
-                    <li><a href="impact.html">Research</a></li>
+                    <li><a href="impact.html">Impact Stories</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </div>
             <div class="med-down-nav hide-on-large-only">
                 <ul>
-                <img class="logo" src="logopng/gedready.png">
-                <div class="dropdown">
-                    <button><img class="navmenu" src="logopng/navmenu.png"></button>
-                    <div class="dropdown-nav">
-                        <a href="index.html">Home Page</a>
-                        <a href="about.html">About Us</a>
-                        <a href="prep.html">Prep</a>
-                        <a href="impact.html">Impact Stories</a>
-                        <a href="contact.html">Contact Us</a>
-                    </div>
-                </div>
+                    <li><a href="index.html"><img class="logo" src="logopng/gedready.png"></a></li>
+                    <li><a><img class="navmenu" src="logopng/navmenu.png"></a>
+                        <ul class="dropdown-nav">
+                            <li><a href="index.html">Home Page</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="prep.html">Prep</a></li>
+                            <li><a href="impact.html">Impact Stories</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -108,6 +107,27 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navMenu = document.querySelector(".dropdown-nav");
+            const navMenuButton = document.querySelector(".navmenu");
+
+            navMenuButton.addEventListener("click", function () {
+                if (navMenu.style.display === "block") {
+                    navMenu.style.display = "block";
+                } else {
+                    navMenu.style.display = "block";
+                }
+            });
+
+            document.addEventListener("click", function (e) {
+                if (!navMenu.contains(e.target) && e.target !== navMenuButton) {
+                    navMenu.style.display = "none"; // Close the dropdown
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
