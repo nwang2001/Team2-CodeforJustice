@@ -80,7 +80,7 @@ h2 a:hover {
 }
 
 .image img{
-    width: 75%;
+    width: 50vw;
     border-radius: 50px;
 }
 
@@ -106,4 +106,67 @@ h2 a:hover {
     100% {
         color: var(--color-1)
     }
+}
+
+@media screen and (max-width: 400px) {
+    
+    h1, h2, h3, h4{
+        font-size: 20px;
+    }
+    
+    .first_section, .second_section, .third_section{
+        flex-direction: column;
+        width: 100vw;
+        padding: 0px 25px 0px 0;
+        margin: 5px;
+    }
+    .text{
+        padding: 10;
+        margin: 15px;
+    }
+    .image img{
+        display: none;
+    }
+  
+
+}
+
+@media screen and (min-width: 401px) and (max-width: 768px) {
+    
+    h1, h2, h3, h4{
+        font-size: 30px;
+    }
+    
+    .first_section, .second_section, .third_section{
+        flex-direction: column;
+        width: 100vw;
+        padding: 0px 25px 0px 0;
+        margin: 0px;
+    }
+    .text{
+        padding: 10;
+        margin: 15px;
+    }
+    .image img{
+        display: none;
+    }
+  
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    h1, h2, h3, h4{
+        font-size: 41px;
+    }
+
+    .first_section, .second_section, .third_section{
+        width: 100vw;
+        padding: 0px 25px 0px 0;
+        margin: 0px;
+    }
+    .text{
+        padding: 10;
+        margin:15px;
+    }
+
 }
