@@ -3,90 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="shared.css">
-    <title>Contact Us</title>
+   
+    <title>Document</title>
 </head>
+
+
 <body>
-
     <header>
-            <nav>
-                <div class="nav-wrapper">
-                    <a href="#" class="brand-logo"></a><img class="logo" src="logopng/gedready.png"></a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="index.html">Home Page</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="prep.html">Prep</a></li>
-                        <li><a href="impact.html">Impact Stories</a></li>
-                        <li  class="active"><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                </div>
-            </nav>
-
-            <div class="header__title">
-                <h1 class="header__contact" style="font-weight: 900;">
-                    <span class="contact__color contact__title-color1">Contact</span>
-                    <span class="contact__color contact__title-color2">Us</span>
-                </h1>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo"></a><img class="logo" src="logopng/gedready.png"></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home Page</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="prep.html">Prep</a></li>
+                    <li><a href="impact.html">Impact Stories</a></li>
+                    <li  class="active"><a href="contact.html">Contact Us</a></li>
+                </ul>
             </div>
-    </header>
+        </nav>
 
-    <section id="contact-form" class="z-depth-2">
-        <div class="container">
-            <form class="col s12">
-
-                <div class="row">
-                <div class="input-field col s12">
-                    <input id="first_name" type="text" class="validate">
-                    <label class="active" for="first_name">First Name</label>
-                </div>
-                </div>
-
-                <div class="row">
-                <div class="input-field col s12">
-                    <input id="last_name" type="text" class="validate">
-                    <label class="active" for="last_name">Last Name</label>
-                </div>
-                </div>
-
-                <div class="row">
-                <div class="input-field col s12">
-                    <input id="email_inline" type="email" class="validate">
-                    <label class="active" for="email_inline">Email</label>
-                    <span class="helper-text" data-error="Incorrect email entry" data-success="Valid email entry">Please ensure the email is entered correctly.</span>
-                </div>
-                </div>
-
-                <div class="row">
-                <div class="input-field col s12">
-                    <label class="active">I want to</label>
-                    <select multiple>
-                        <option value="" disabled selected></option>
-                        <option value="1">Recieve more information</option>
-                        <option value="2">Donate to GED Ready Foundation</option>
-                        <option value="3">Sign up for GED Ready Prep!</option>
-                    </select>
-                </div>
-                </div>
-
-                <div class="row">
-                <div class="input-field col s12">
-                    <textarea id="textarea1" class="materialize-textarea"></textarea>
-                    <label class="active" for="textarea1">Include A Message</label>
-                </div>
-                </div>
-
-            <button class="btn waves-effect waves-light teal lighten-1" type="submit" name="action">Submit
-                <i class="material-icons right">send</i>
-            </button>
-
-            <p>By submitting the above form, I confirm that I have reviewed the <a href="">Privacy Notice</a> and have received comprehensive information regarding the terms and conditions governing the processing of my data by GED Ready Foundation.</p>
-            
-            </form>
+        <div class="header__title">
+            <h1 class="header__contact" style="font-weight: 900;">
+                <span class="contact__color contact__title-color1">Contact</span>
+                <span class="contact__color contact__title-color2">Us</span>
+            </h1>
         </div>
-    </section>
+</header>
+
+  
+
+    <div class="container-form">
+        <!-- <div class="header">
+            <h2>Contact Us</h2>
+        </div> -->
+
+        <form class="form" id="form">
+            <div class="form-control">
+                <label for="first-name">First Name</label>
+                <input type="text" placeholder="Enter your First Name" id="first-name" >
+                <span class="icon-check"><ion-icon name="checkmark-circle-outline"></ion-icon></span>
+                <span class="icon-alert"><ion-icon name="alert-circle-outline"></ion-icon></span>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="last-name">Last Name</label>
+                <input type="text" placeholder="Enter your Last Name" id="last-name" >
+                <span class="icon-check"><ion-icon name="checkmark-circle-outline"></ion-icon></span>
+                <span class="icon-alert"><ion-icon name="alert-circle-outline"></ion-icon></span>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Enter your Email" id="email">
+                <span class="icon-check"><ion-icon name="checkmark-circle-outline"></ion-icon></span>
+                <span class="icon-alert"><ion-icon name="alert-circle-outline"></ion-icon></span>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="select-something" class="active">I Want To</label>
+                <select id="select-something" name="select-something">
+                    <option></option>
+                    <option>Recieve more information</option>
+                    <option>Donate to GED Ready Foundation</option>
+                    <option>Sign up for GED Ready Prep!</option>
+                </select>    
+               
+            </div>
+
+            <div class="form-control">
+                <label for="send-message">Include A Message</label>
+                <input type="text" placeholder="Enter your Message" id="send-message" >
+            </div>
+
+            <button>SUBMIT<span class="icon-plane"><ion-icon name="paper-plane-outline"></ion-icon></span></button>
+            
+            <p>By submitting the above form, I confirm that I have reviewed the <a href="">Privacy Notice</a> and have received comprehensive information regarding the terms and conditions governing the processing of my data by GED Ready Foundation.</p>
+
+
+        </form>
+
+    </div>
+
 
     <footer class="page-footer">
         <div class="container">
@@ -96,7 +102,7 @@
                         <li><a href="index.html">Home Page</a></li>
                         <li><a href="about.html">About Us</a></li>
                         <li><a href="prep.html">Prep</a></li>
-                        <li><a href="impact.html">Impact Stories</a></li>
+                        <li><a href="research.html">Research</a></li>
                         <li><a href="contact.html">Contact Us</a></li>
                     </ul>
                 </div>
@@ -118,9 +124,16 @@
         </div>
     </footer>
 
+
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script src="contact.js"></script>
 
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+<script src="contact.js"> </script>
 </body>
 </html>
