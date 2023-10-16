@@ -15,23 +15,29 @@ nav .nav-wrapper {
     background-color: #379683;
     height: 150px;
 }
+
 nav ul a {
     font-size: 22px;
     padding: 40px 18px;
 }
+
 .nav-wrapper {
     align-items: center;
 }
+
 .logo {
     height: 100%;
     padding: 20px;
 }
+
 .nav-wrapper ul {
     height: 100%;
 }
+
 .nav-wrapper li {
     height: 100%;
 }
+
 .nav-wrapper a {
     color: #05386b;
     height: 100%;
@@ -54,15 +60,93 @@ nav ul a {
     display: flex;
     color: #05386b;
 }
+
 a {
     color: #05386b;
 }
+
 .footer-icons {
     display: flex;
     justify-content: space-between;
     width: 200px;
     margin-left: auto;
 }
+
 .icons {
     height: 50px;
+}
+
+@media screen and (max-width: 992px) {
+    nav {
+        background-color: #379683;
+        height: 110px;
+        width: 100%;
+    }
+
+    .logo {
+        height: 100px;
+        padding: 10px;
+    }
+
+    .med-down-nav {
+        width: 100%;
+        padding-right: 40px;
+    }
+
+    .med-down-nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .med-down-nav ul ul {
+        display: none;
+        position: absolute;
+        background-color: #379683;
+        z-index: 1;
+    }
+
+    .navmenu {
+        border: none;
+        height: 30px;
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .dropdown-nav {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: #379683;
+        z-index: 1;
+        right: 0;
+        margin-right: 10px;
+    }
+
+    .dropdown-nav ul {
+        display: flex;
+        flex-direction: column;
+        float: right;
+        text-align: right;
+    }
+
+    .dropdown-nav li {
+        width: 150px;
+        border: 1px solid #edf5e1;
+        border-bottom: 0px;
+        text-align: center;        
+        color: #edf5e1;
+    }
+
+    .med-down-nav li a,
+    .dropdown-nav li a {
+        font-size: 16px;
+        padding: 0;
+    }
+
+    .dropdown-nav li a:hover {
+        background-color: #05386b;
+    }
 }

@@ -30,96 +30,55 @@ h2 {
     font-size: 20px;
     margin: 3rem 2rem;
     margin-top: 1rem;
+
+@media screen and (max-width: 400px) {
+    .main h1 {
+        font-size: 22px;
+        
+    }  .main h2 {
+        font-size: 18px;
+    }
+    .main ul li {
+        font-size: 14px;
+    }
+    .main p {
+        font-size: 14px;
+    }
+  
 }
 
-
-@media screen and (max-width: 992px) {
-    nav {
-        background-color: #379683;
-        height: 110px;
-        width: 100%;
+@media screen and (min-width: 401px) and (max-width: 768px) {
+    .main h1 {
+        font-size: 25px;
+        
+    }
+    .main h2 {
+        font-size: 20px;
     }
 
-    .logo {
-        height: 100px;
-        padding: 10px;
-    }
-
-    .med-down-nav {
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-    .med-down-nav ul {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-    }
-
-    .med-down-nav ul ul {
-        display: none;
-        position: absolute;
-        background-color: #379683;
-        z-index: 1;
-    }
-
-    .navmenu {
-        border: none;
-        height: 30px;
-        cursor: pointer;
-        margin: 10px;
-        margin-right: 30px;
-    }
-
-    .dropdown-nav {
-        display: none;
-        position: absolute;
-        background-color: #379683;
-        z-index: 1;
-        right: 0;
-        margin-right: 10px;
-        /* flex-direction: column; */
-    }
-
-    .dropdown-nav li {
-        width: 150px;
-        border: 1px solid #edf5e1;
-        /* border-bottom: 0px; */
-        text-align: center;
-        float: right;
-        /* display: flex;
-        flex-direction: column; */
-        color: #edf5e1;
-        position: relative;
-    }
-
-    .med-down-nav li a,
-    .dropdown-nav li a {
+    .main p {
         font-size: 16px;
-        padding: 0;
+    }
+   
+    .main ul li {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .main h1 {
+        font-size: 34px;
+        
+    }
+    .main h2 {
+        font-size: 30px;
     }
 
-    .dropdown-nav li a:hover {
-        background-color: #05386b;
+    .main p {
+        font-size: 20px;
     }
-
-    footer li,
-    footer p {
-        font-size: 15px;
-    }
-
-    .icons {
-        height: 40px;
-    }
-
-    .footer-icons {
-        display: flex;
-        justify-content: space-between;
-        width: 150px;
-        margin-left: auto;
+   
+    .main ul li {
+        font-size: 20px;
     }
 }
