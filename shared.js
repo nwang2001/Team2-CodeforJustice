@@ -3,10 +3,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const navMenuButton = document.querySelector(".navmenu");
 
     navMenuButton.addEventListener("click", function () {
-        if (navMenu.style.display === "block") {
-            navMenu.style.display = "block";
+        if (navMenu.style.display === "none") {
+            navMenu.style.display = "flex";
         } else {
-            navMenu.style.display = "block";
+            navMenu.style.display = "none";
         }
     });
 
