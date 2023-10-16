@@ -14,7 +14,7 @@
     <header>
         <nav>
             <div class="nav-wrapper hide-on-med-and-down">
-                <a href="#" class="brand-logo hide-on-med-and-down"><img class="logo" src="logopng/gedready.png"></a>
+                <a href="#" class="brand-logo"><img class="logo" src="logopng/gedready.png"></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="index.html">Home Page</a></li>
                     <li class="active"><a href="about.html">About Us</a></li>
@@ -108,26 +108,7 @@
         </div>
     </footer>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const navMenu = document.querySelector(".dropdown-nav");
-            const navMenuButton = document.querySelector(".navmenu");
-
-            navMenuButton.addEventListener("click", function () {
-                if (navMenu.style.display === "block") {
-                    navMenu.style.display = "block";
-                } else {
-                    navMenu.style.display = "block";
-                }
-            });
-
-            document.addEventListener("click", function (e) {
-                if (!navMenu.contains(e.target) && e.target !== navMenuButton) {
-                    navMenu.style.display = "none"; // Close the dropdown
-                }
-            });
-        });
-    </script>
+    <script src="shared.js"></script>
 </body>
 
 </html>
