@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,45 +9,55 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="shared.css">
-   
+
     <title>Document</title>
 </head>
 
 
 <body>
+
     <header>
         <nav>
-            <div class="nav-wrapper">
+            <div class="nav-wrapper hide-on-med-and-down">
                 <a href="#" class="brand-logo"></a><img class="logo" src="logopng/gedready.png"></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="index.html">Home Page</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="prep.html">Prep</a></li>
                     <li><a href="impact.html">Impact Stories</a></li>
-                    <li  class="active"><a href="contact.html">Contact Us</a></li>
+                    <li class="active"><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="med-down-nav hide-on-large-only">
+                <ul>
+                    <li><a href="index.html"><img class="logo" src="logopng/gedready.png"></a></li>
+                    <li><a><img class="navmenu" src="logopng/navmenu.png"></a>
+                        <ul class="dropdown-nav">
+                            <li><a href="index.html">Home Page</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="prep.html">Prep</a></li>
+                            <li><a href="impact.html">Impact Stories</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </nav>
 
-        <div class="header__title">
-            <h1 class="header__contact" style="font-weight: 900;">
+        <div class="header__title-contact">
+            <h1 class="header__contact">
                 <span class="contact__color contact__title-color1">Contact</span>
                 <span class="contact__color contact__title-color2">Us</span>
             </h1>
         </div>
-</header>
-
-  
+    </header>
 
     <div class="container-form">
-        <!-- <div class="header">
-            <h2>Contact Us</h2>
-        </div> -->
 
         <form class="form" id="form">
             <div class="form-control">
                 <label for="first-name">First Name</label>
-                <input type="text" placeholder="Enter your First Name" id="first-name" >
+                <input type="text" placeholder="Enter your First Name" id="first-name">
                 <span class="icon-check"><ion-icon name="checkmark-circle-outline"></ion-icon></span>
                 <span class="icon-alert"><ion-icon name="alert-circle-outline"></ion-icon></span>
                 <small>Error Message</small>
@@ -54,7 +65,7 @@
 
             <div class="form-control">
                 <label for="last-name">Last Name</label>
-                <input type="text" placeholder="Enter your Last Name" id="last-name" >
+                <input type="text" placeholder="Enter your Last Name" id="last-name">
                 <span class="icon-check"><ion-icon name="checkmark-circle-outline"></ion-icon></span>
                 <span class="icon-alert"><ion-icon name="alert-circle-outline"></ion-icon></span>
                 <small>Error Message</small>
@@ -75,20 +86,19 @@
                     <option>Recieve more information</option>
                     <option>Donate to GED Ready Foundation</option>
                     <option>Sign up for GED Ready Prep!</option>
-                </select>    
-               
+                </select>
+
             </div>
 
             <div class="form-control">
                 <label for="send-message">Include A Message</label>
-                <input type="text" placeholder="Enter your Message" id="send-message" >
+                <input type="text" placeholder="Enter your Message" id="send-message">
             </div>
 
             <button>SUBMIT<span class="icon-plane"><ion-icon name="paper-plane-outline"></ion-icon></span></button>
+
             
             <p>By submitting the above form, I confirm that I have reviewed the <a href="">Privacy Notice</a> and have received comprehensive information regarding the terms and conditions governing the processing of my data by GED Ready Foundation.</p>
-
-
         </form>
 
     </div>
@@ -102,7 +112,7 @@
                         <li><a href="index.html">Home Page</a></li>
                         <li><a href="about.html">About Us</a></li>
                         <li><a href="prep.html">Prep</a></li>
-                        <li><a href="research.html">Research</a></li>
+                        <li><a href="impact.html">Impact Stories</a></li>
                         <li><a href="contact.html">Contact Us</a></li>
                     </ul>
                 </div>
@@ -126,14 +136,15 @@
 
 
 
-
+    <script src="shared.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script src="contact.js"></script>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     
-<script src="contact.js"> </script>
 </body>
+
 </html>

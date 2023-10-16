@@ -2,9 +2,12 @@ main {
     background-color: #EDF5E1;
     max-height: 1000px;
 }
-
+.header__title-impact {
+    margin: 100px 0px 50px 0px;
+}
 .header__impact {
     text-align: center;
+    font-weight: 900;
 }
 
 .impact__color {

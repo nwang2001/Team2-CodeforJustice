@@ -37,48 +37,74 @@ h2 {
     nav {
         background-color: #379683;
         height: 110px;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .dropdown {
-        position: relative;
+        width: 100%;
     }
 
     .logo {
         height: 100px;
+        padding: 10px;
     }
-    button {
+
+    .med-down-nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .med-down-nav ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .med-down-nav ul ul {
+        display: none;
+        position: absolute;
         background-color: #379683;
-        border-style: none;
+        z-index: 1;
     }
 
     .navmenu {
+        border: none;
         height: 30px;
+        cursor: pointer;
+        margin: 10px;
+        margin-right: 30px;
     }
 
     .dropdown-nav {
         display: none;
         position: absolute;
-        top: 10px;
-        right: 50px;
-        overflow: auto;
-        border-radius: 5px;
-        box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
-    }
-    
-    .dropdown-nav a {
-        display: block;
-        color: #000000;
-        padding: 5px;
-        text-decoration: none;
-        padding: 20px 40px;
+        background-color: #379683;
+        z-index: 1;
+        right: 0;
+        margin-right: 10px;
+        /* flex-direction: column; */
     }
 
-    .dropdown-nav a:hover {
-        color: #0a0a23;
-        background-color: #ddd;
-        border-radius: 5px;
+    .dropdown-nav li {
+        width: 150px;
+        border: 1px solid #edf5e1;
+        /* border-bottom: 0px; */
+        text-align: center;
+        float: right;
+        /* display: flex;
+        flex-direction: column; */
+        color: #edf5e1;
+        position: relative;
+    }
+
+    .med-down-nav li a,
+    .dropdown-nav li a {
+        font-size: 16px;
+        padding: 0;
+    }
+
+    .dropdown-nav li a:hover {
+        background-color: #05386b;
     }
 
     footer li,
@@ -150,5 +176,4 @@ h2 {
         font-size: 20px;
     }
 }
-
 
