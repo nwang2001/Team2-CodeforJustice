@@ -16,8 +16,6 @@ function checkInputs() {
     let lastNameValue = lastName.value.trim();
     let emailValue = email.value.trim();
 
-
-
     if(firstNameValue === '') {
         //show error
         //add error class
@@ -32,7 +30,6 @@ function checkInputs() {
         setSuccessFor(lastName);
     }
     
-
     if(emailValue === '') {
         setErrorFor(email, 'Email cannot be blank');
     } else if(!isEmail(emailValue)) {
@@ -40,9 +37,7 @@ function checkInputs() {
     } else {
         setSuccessFor(email);
     }
-
 }
-
 
 function setErrorFor(input, message) {
     let formControl  = input.parentElement; // .form-control
@@ -52,13 +47,11 @@ function setErrorFor(input, message) {
 small.innerText = message;
 //add error class 
 formControl.className = "form-control error";
-
 }
 
 function setSuccessFor(input) {
     let formControl = input.parentElement;
     formControl.className = "form-control success";
-
 }
 
 function isEmail(email) {
